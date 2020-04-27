@@ -1,0 +1,92 @@
+{
+  "uid" : "40470ad53485028f",
+  "name" : "test_select_event_02",
+  "fullName" : "test_event.TestEevent#test_select_event_02",
+  "historyId" : "326662ac834d15bd1f440943f4bb3c5f",
+  "time" : {
+    "start" : 1587960480389,
+    "stop" : 1587960480612,
+    "duration" : 223
+  },
+  "description" : " 查询所有发布会 ",
+  "descriptionHtml" : "<p>查询所有发布会</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " 查询所有发布会 ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1979b50cb67748c3",
+      "name" : "返回的结果",
+      "source" : "1979b50cb67748c3.attach",
+      "type" : "text/plain",
+      "size" : 203
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "发布会功能"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "查询所有发布会"
+  }, {
+    "name" : "suite",
+    "value" : "test_event"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEevent"
+  }, {
+    "name" : "host",
+    "value" : "WPYW29MHFFSYDPN"
+  }, {
+    "name" : "thread",
+    "value" : "8464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_event"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "5f60e1b79cf5a3a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587960222139,
+        "stop" : 1587960222324,
+        "duration" : 185
+      }
+    } ],
+    "categories" : [ {
+      "name" : "测试成功",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "40470ad53485028f.json",
+  "parameterValues" : [ ]
+}

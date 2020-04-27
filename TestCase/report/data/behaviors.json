@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "发布会功能",
+    "children" : [ {
+      "name" : "添加发布会",
+      "children" : [ {
+        "name" : "test_add_event_01",
+        "uid" : "331da94f31ec5634",
+        "parentUid" : "83e22927f6a3e7114f32f71f74d37645",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587960480161,
+          "stop" : 1587960480384,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83e22927f6a3e7114f32f71f74d37645"
+    }, {
+      "name" : "查询所有发布会",
+      "children" : [ {
+        "name" : "test_select_event_02",
+        "uid" : "40470ad53485028f",
+        "parentUid" : "2d7dbc01fdd040f2875e0f8d443b9a4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587960480389,
+          "stop" : 1587960480612,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d7dbc01fdd040f2875e0f8d443b9a4b"
+    }, {
+      "name" : "删除发布会",
+      "children" : [ {
+        "name" : "test_delete_event_03",
+        "uid" : "2eae0fb7f58632d",
+        "parentUid" : "aab88025ed81d1903288a9f83790a0bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587960480617,
+          "stop" : 1587960480836,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aab88025ed81d1903288a9f83790a0bd"
+    } ],
+    "uid" : "9461a61aff5378a7b493de55cb586515"
+  } ]
+}

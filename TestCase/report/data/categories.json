@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "测试成功",
+    "children" : [ {
+      "children" : [ {
+        "name" : "test_add_event_01",
+        "uid" : "331da94f31ec5634",
+        "parentUid" : "dc85beebfdc123545de38e1306fbe95f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587960480161,
+          "stop" : 1587960480384,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_select_event_02",
+        "uid" : "40470ad53485028f",
+        "parentUid" : "dc85beebfdc123545de38e1306fbe95f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587960480389,
+          "stop" : 1587960480612,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc85beebfdc123545de38e1306fbe95f"
+    } ],
+    "uid" : "a3ca50906dc507fa14e2e047bf0ed066"
+  }, {
+    "name" : "测试失败",
+    "children" : [ {
+      "name" : "AssertionError: assert 10202 == 200",
+      "children" : [ {
+        "name" : "test_delete_event_03",
+        "uid" : "2eae0fb7f58632d",
+        "parentUid" : "442ea686fea33d4eb894a5417d450efe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587960480617,
+          "stop" : 1587960480836,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "442ea686fea33d4eb894a5417d450efe"
+    } ],
+    "uid" : "d1a1007cb6a0d4812dc895e421aad1ab"
+  } ]
+}

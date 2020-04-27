@@ -1,0 +1,96 @@
+{
+  "uid" : "2eae0fb7f58632d",
+  "name" : "test_delete_event_03",
+  "fullName" : "test_event.TestEevent#test_delete_event_03",
+  "historyId" : "11292d534f5db4fc303b9418d9f8414e",
+  "time" : {
+    "start" : 1587960480617,
+    "stop" : 1587960480836,
+    "duration" : 219
+  },
+  "description" : " 删除发布会 ",
+  "descriptionHtml" : "<p>删除发布会</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10202 == 200",
+  "statusTrace" : "self = <TestCase.test_event.TestEevent object at 0x0000000003EDCE08>\n\n    @allure.severity('blocker')\n    @allure.story('删除发布会')\n    def test_delete_event_03(self):\n        \"\"\" 删除发布会 \"\"\"\n        conf = ReadConfig()\n        data = DeleteEvent()\n        request = Request()\n    \n        host = conf.host\n        url = data.url[0]\n        params = data.data[0]\n        headers = data.headers[0]\n        api_url = host + url\n        # params['event_id'] = event_id\n        response = request.request_post(url=api_url,data=params,headers=headers).json()\n        allure.attach('{0}'.format(response), '返回的结果')\n>       assert response['status'] == 200\nE       assert 10202 == 200\n\ntest_event.py:65: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " 删除发布会 ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10202 == 200",
+    "statusTrace" : "self = <TestCase.test_event.TestEevent object at 0x0000000003EDCE08>\n\n    @allure.severity('blocker')\n    @allure.story('删除发布会')\n    def test_delete_event_03(self):\n        \"\"\" 删除发布会 \"\"\"\n        conf = ReadConfig()\n        data = DeleteEvent()\n        request = Request()\n    \n        host = conf.host\n        url = data.url[0]\n        params = data.data[0]\n        headers = data.headers[0]\n        api_url = host + url\n        # params['event_id'] = event_id\n        response = request.request_post(url=api_url,data=params,headers=headers).json()\n        allure.attach('{0}'.format(response), '返回的结果')\n>       assert response['status'] == 200\nE       assert 10202 == 200\n\ntest_event.py:65: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b887efb51ad1c69b",
+      "name" : "返回的结果",
+      "source" : "b887efb51ad1c69b.attach",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "发布会功能"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "删除发布会"
+  }, {
+    "name" : "suite",
+    "value" : "test_event"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEevent"
+  }, {
+    "name" : "host",
+    "value" : "WPYW29MHFFSYDPN"
+  }, {
+    "name" : "thread",
+    "value" : "8464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_event"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "33c578799d1fb8be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587960222328,
+        "stop" : 1587960222499,
+        "duration" : 171
+      }
+    } ],
+    "categories" : [ {
+      "name" : "测试失败",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2eae0fb7f58632d.json",
+  "parameterValues" : [ ]
+}

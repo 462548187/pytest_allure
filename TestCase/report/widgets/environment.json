@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "3.7.0" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "5.4.1" ],
+  "name" : "pytest"
+}, {
+  "values" : [ "192.168.0.225" ],
+  "name" : "host"
+}, {
+  "values" : [ "2.22.0" ],
+  "name" : "requests"
+} ]

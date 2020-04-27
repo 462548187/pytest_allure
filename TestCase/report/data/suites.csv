@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_event.TestEevent#test_select_event_02","223"," 查询所有发布会 "
+"failed","test_event.TestEevent#test_delete_event_03","219"," 删除发布会 "
+"passed","test_event.TestEevent#test_add_event_01","223"," 添加发布会 "
