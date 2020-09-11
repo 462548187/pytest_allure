@@ -1,0 +1,122 @@
+{
+  "uid" : "a5daf33c2e5dec2b",
+  "name" : "查询所有客户携带cookies",
+  "fullName" : "TestCase.test_customer.TestLogin#test_select_customer_cookie_02",
+  "historyId" : "bfd564b7423be5e5576b650e57398cde",
+  "time" : {
+    "start" : 1599817312138,
+    "stop" : 1599817312148,
+    "duration" : 10
+  },
+  "description" : " 查询所有客户携带cookies",
+  "descriptionHtml" : "<p>查询所有客户携带cookies</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_cookie",
+    "time" : {
+      "start" : 1599817311984,
+      "stop" : 1599817312137,
+      "duration" : 153
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : " 查询所有客户携带cookies",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a342a323c1332902",
+      "name" : "返回的结果",
+      "source" : "a342a323c1332902.attach",
+      "type" : "text/plain",
+      "size" : 128
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "客户用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "客户功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_customer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "WPYW29MHFFSYDPN"
+  }, {
+    "name" : "thread",
+    "value" : "8432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_customer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "测试成功",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c6a43690a8523617",
+        "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/1/allure/#testresult/c6a43690a8523617",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599816925962,
+          "stop" : 1599816925998,
+          "duration" : 36
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a5daf33c2e5dec2b.json",
+  "parameterValues" : [ ]
+}

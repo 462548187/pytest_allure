@@ -1,13 +1,16 @@
 [ {
-  "values" : [ "3.7.0" ],
+  "values" : [ "3.7.5" ],
   "name" : "pythonVersion"
 }, {
-  "values" : [ "5.4.1" ],
+  "values" : [ "siuweide" ],
+  "name" : "auth"
+}, {
+  "values" : [ "5.4.3" ],
   "name" : "pytest"
 }, {
-  "values" : [ "192.168.0.225" ],
+  "values" : [ "127.0.0.1:8000" ],
   "name" : "host"
 }, {
-  "values" : [ "2.22.0" ],
-  "name" : "requests"
+  "values" : [ "2.8.13" ],
+  "name" : "allure"
 } ]

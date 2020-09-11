@@ -1,10 +1,25 @@
 [ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/3/allure",
+  "reportName" : "AllureReport",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 2,
+    "passed" : 6,
     "unknown" : 0,
-    "total" : 3
+    "total" : 6
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 6,
+    "unknown" : 0,
+    "total" : 6
   }
 } ]

@@ -1,31 +1,61 @@
 [ {
-  "uid" : "331da94f31ec5634",
-  "name" : "test_add_event_01",
+  "uid" : "1047bbf5509a8fef",
+  "name" : "缺少登录密码",
   "time" : {
-    "start" : 1587960480161,
-    "stop" : 1587960480384,
-    "duration" : 223
+    "start" : 1599817312449,
+    "stop" : 1599817312459,
+    "duration" : 10
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "40470ad53485028f",
-  "name" : "test_select_event_02",
+  "uid" : "8deb361ddaff22fe",
+  "name" : "登录密码错误",
   "time" : {
-    "start" : 1587960480389,
-    "stop" : 1587960480612,
-    "duration" : 223
+    "start" : 1599817312297,
+    "stop" : 1599817312432,
+    "duration" : 135
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "2eae0fb7f58632d",
-  "name" : "test_delete_event_03",
+  "uid" : "f2c238cf85fdb46f",
+  "name" : "登录密码为空",
   "time" : {
-    "start" : 1587960480617,
-    "stop" : 1587960480836,
-    "duration" : 219
+    "start" : 1599817312435,
+    "stop" : 1599817312444,
+    "duration" : 9
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "25a92060c3818599",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1599817312153,
+    "stop" : 1599817312294,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ee1e4cc83772adb1",
+  "name" : "查询所有客户缺少cookie",
+  "time" : {
+    "start" : 1599817311973,
+    "stop" : 1599817311981,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a5daf33c2e5dec2b",
+  "name" : "查询所有客户携带cookies",
+  "time" : {
+    "start" : 1599817312138,
+    "stop" : 1599817312148,
+    "duration" : 10
+  },
+  "status" : "passed",
   "severity" : "blocker"
 } ]

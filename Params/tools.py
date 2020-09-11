@@ -4,26 +4,23 @@ import os
 import os.path
 
 def parse():
-    param_path = os.path.dirname(__file__) + '/param'
+    param_paths = ['/login',  '/customer']
     pages = {}
-    for root, dirs, files in os.walk(param_path):
-        for name in files:
-            watch_file_path = os.path.join(root, name)
-            with open(watch_file_path, encoding='utf-8') as f:
-                page = yaml.safe_load(f)
-                pages.update(page)
-        return pages
+    for param_path in param_paths:
+        file_path = os.path.dirname(__file__) + param_path
+        for root, dirs, files in os.walk(file_path):
+            for name in files:
+                watch_file_path = os.path.join(root, name)
+                with open(watch_file_path, encoding='utf-8') as f:
+                    page = yaml.safe_load(f)
+                    pages.update(page)
+    return pages
 
 def get_page_list():
     page_list = {}
     pages = parse()
-    # print('pages--------->', pages)
     for page, value in pages.items():
-        # print('page---------->',page)
-        # print('value---------->',value)
         parameters = value['parameters']
-        # print(parameters)
-        # print(page)
         data_list = []
 
         for parameter in parameters:

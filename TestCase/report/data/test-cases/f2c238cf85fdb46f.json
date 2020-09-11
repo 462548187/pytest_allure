@@ -1,0 +1,107 @@
+{
+  "uid" : "f2c238cf85fdb46f",
+  "name" : "登录密码为空",
+  "fullName" : "TestCase.test_login.TestLogin#test_password_null_login_03",
+  "historyId" : "7b1ddfabb095e7be429d0410263800fe",
+  "time" : {
+    "start" : 1599817312435,
+    "stop" : 1599817312444,
+    "duration" : 9
+  },
+  "description" : " 登录密码错误 ",
+  "descriptionHtml" : "<p>登录密码错误</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " 登录密码错误 ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b970c00fcb6cbf5d",
+      "name" : "返回的结果",
+      "source" : "b970c00fcb6cbf5d.attach",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "WPYW29MHFFSYDPN"
+  }, {
+    "name" : "thread",
+    "value" : "8432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "测试成功",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ab7d703d355a7c5c",
+        "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/1/allure/#testresult/ab7d703d355a7c5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599816926301,
+          "stop" : 1599816926310,
+          "duration" : 9
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2c238cf85fdb46f.json",
+  "parameterValues" : [ ]
+}

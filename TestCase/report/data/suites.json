@@ -2,48 +2,96 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "test_event",
+    "name" : "TestCase",
     "children" : [ {
-      "name" : "TestEevent",
+      "name" : "test_customer",
       "children" : [ {
-        "name" : "test_add_event_01",
-        "uid" : "331da94f31ec5634",
-        "parentUid" : "c01a38a755758d20ffe4a698c253b303",
-        "status" : "passed",
-        "time" : {
-          "start" : 1587960480161,
-          "stop" : 1587960480384,
-          "duration" : 223
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_select_event_02",
-        "uid" : "40470ad53485028f",
-        "parentUid" : "c01a38a755758d20ffe4a698c253b303",
-        "status" : "passed",
-        "time" : {
-          "start" : 1587960480389,
-          "stop" : 1587960480612,
-          "duration" : 223
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_delete_event_03",
-        "uid" : "2eae0fb7f58632d",
-        "parentUid" : "c01a38a755758d20ffe4a698c253b303",
-        "status" : "failed",
-        "time" : {
-          "start" : 1587960480617,
-          "stop" : 1587960480836,
-          "duration" : 219
-        },
-        "flaky" : false,
-        "parameters" : [ ]
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "查询所有客户缺少cookie",
+          "uid" : "ee1e4cc83772adb1",
+          "parentUid" : "001d880732013116f9dc97d97b3666a3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817311973,
+            "stop" : 1599817311981,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询所有客户携带cookies",
+          "uid" : "a5daf33c2e5dec2b",
+          "parentUid" : "001d880732013116f9dc97d97b3666a3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817312138,
+            "stop" : 1599817312148,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "001d880732013116f9dc97d97b3666a3"
       } ],
-      "uid" : "c01a38a755758d20ffe4a698c253b303"
+      "uid" : "151bb4b5e38047c3cd9cdc06da448040"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录成功",
+          "uid" : "25a92060c3818599",
+          "parentUid" : "22ed049b6723173eb272283db21ec5bb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817312153,
+            "stop" : 1599817312294,
+            "duration" : 141
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "登录密码错误",
+          "uid" : "8deb361ddaff22fe",
+          "parentUid" : "22ed049b6723173eb272283db21ec5bb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817312297,
+            "stop" : 1599817312432,
+            "duration" : 135
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "登录密码为空",
+          "uid" : "f2c238cf85fdb46f",
+          "parentUid" : "22ed049b6723173eb272283db21ec5bb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817312435,
+            "stop" : 1599817312444,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "缺少登录密码",
+          "uid" : "1047bbf5509a8fef",
+          "parentUid" : "22ed049b6723173eb272283db21ec5bb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599817312449,
+            "stop" : 1599817312459,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22ed049b6723173eb272283db21ec5bb"
+      } ],
+      "uid" : "572226e32cb17df2f1d915b4e22c3e13"
     } ],
-    "uid" : "2ecbd984e0aedfb1530d4c817f2bcbe7"
+    "uid" : "ee79ae265a842e48c4df30f006daaf4e"
   } ]
 }

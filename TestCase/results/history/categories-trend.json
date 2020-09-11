@@ -1,0 +1,6 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/1/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]

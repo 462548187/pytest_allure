@@ -2,56 +2,92 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "发布会功能",
+    "name" : "客户功能",
     "children" : [ {
-      "name" : "添加发布会",
+      "name" : "客户用例",
       "children" : [ {
-        "name" : "test_add_event_01",
-        "uid" : "331da94f31ec5634",
-        "parentUid" : "83e22927f6a3e7114f32f71f74d37645",
+        "name" : "查询所有客户缺少cookie",
+        "uid" : "ee1e4cc83772adb1",
+        "parentUid" : "07f02f7391391d17071b38c0814c554a",
         "status" : "passed",
         "time" : {
-          "start" : 1587960480161,
-          "stop" : 1587960480384,
-          "duration" : 223
+          "start" : 1599817311973,
+          "stop" : 1599817311981,
+          "duration" : 8
         },
         "flaky" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "83e22927f6a3e7114f32f71f74d37645"
-    }, {
-      "name" : "查询所有发布会",
-      "children" : [ {
-        "name" : "test_select_event_02",
-        "uid" : "40470ad53485028f",
-        "parentUid" : "2d7dbc01fdd040f2875e0f8d443b9a4b",
+      }, {
+        "name" : "查询所有客户携带cookies",
+        "uid" : "a5daf33c2e5dec2b",
+        "parentUid" : "07f02f7391391d17071b38c0814c554a",
         "status" : "passed",
         "time" : {
-          "start" : 1587960480389,
-          "stop" : 1587960480612,
-          "duration" : 223
+          "start" : 1599817312138,
+          "stop" : 1599817312148,
+          "duration" : 10
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2d7dbc01fdd040f2875e0f8d443b9a4b"
-    }, {
-      "name" : "删除发布会",
-      "children" : [ {
-        "name" : "test_delete_event_03",
-        "uid" : "2eae0fb7f58632d",
-        "parentUid" : "aab88025ed81d1903288a9f83790a0bd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1587960480617,
-          "stop" : 1587960480836,
-          "duration" : 219
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aab88025ed81d1903288a9f83790a0bd"
+      "uid" : "07f02f7391391d17071b38c0814c554a"
     } ],
-    "uid" : "9461a61aff5378a7b493de55cb586515"
+    "uid" : "b8a8eddf8ba92267a3cd19b80798e71b"
+  }, {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "登录用例",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "25a92060c3818599",
+        "parentUid" : "6778e47f066e9619d7c3abf3c6d2711f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599817312153,
+          "stop" : 1599817312294,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录密码错误",
+        "uid" : "8deb361ddaff22fe",
+        "parentUid" : "6778e47f066e9619d7c3abf3c6d2711f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599817312297,
+          "stop" : 1599817312432,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录密码为空",
+        "uid" : "f2c238cf85fdb46f",
+        "parentUid" : "6778e47f066e9619d7c3abf3c6d2711f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599817312435,
+          "stop" : 1599817312444,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "缺少登录密码",
+        "uid" : "1047bbf5509a8fef",
+        "parentUid" : "6778e47f066e9619d7c3abf3c6d2711f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599817312449,
+          "stop" : 1599817312459,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6778e47f066e9619d7c3abf3c6d2711f"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
   } ]
 }

@@ -1,0 +1,107 @@
+{
+  "uid" : "ee1e4cc83772adb1",
+  "name" : "查询所有客户缺少cookie",
+  "fullName" : "TestCase.test_customer.TestLogin#test_select_customer_lost_cookie_01",
+  "historyId" : "5bb4f0b4f0c35776f2793d68aa24a3fd",
+  "time" : {
+    "start" : 1599817311973,
+    "stop" : 1599817311981,
+    "duration" : 8
+  },
+  "description" : " 查询所有客户缺少cookie ",
+  "descriptionHtml" : "<p>查询所有客户缺少cookie</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " 查询所有客户缺少cookie ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80598fb17a1f1e22",
+      "name" : "返回的结果",
+      "source" : "80598fb17a1f1e22.attach",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "客户用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "客户功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_customer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "WPYW29MHFFSYDPN"
+  }, {
+    "name" : "thread",
+    "value" : "8432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_customer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "测试成功",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7c97e11ee296c8a6",
+        "reportUrl" : "http://localhost:8080/job/pytest_allure_interface/1/allure/#testresult/7c97e11ee296c8a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599816925681,
+          "stop" : 1599816925766,
+          "duration" : 85
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee1e4cc83772adb1.json",
+  "parameterValues" : [ ]
+}

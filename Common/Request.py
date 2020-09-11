@@ -1,20 +1,14 @@
 import requests
 
-from Common.Session import Session
-
 
 class Request():
 
-    def __init__(self):
-        self.session = Session()
-        self.get_session = self.session.get_session()
-
-    def request_get(self,url, params=None, headers=None):
-        res = requests.get(url=url, params=params, headers=headers, cookies=self.get_session)
+    def request_get(self, url, params=None, headers=None, cookies=None):
+        res = requests.get(url=url, params=params, headers=headers, cookies=cookies)
         return res
 
-    def request_post(self, url, data, headers):
-        res = requests.post(url=url, data=data, headers=headers, cookies=self.get_session)
+    def request_post(self, url, data=None, headers=None, cookies=None):
+        res = requests.post(url=url, data=data, headers=headers, cookies=cookies)
         return res
 
 if __name__ == '__main__':
